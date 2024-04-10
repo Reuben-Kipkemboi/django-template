@@ -4,8 +4,16 @@
 1. create a virtual environment- for this case am calling my env virtual
 `python -m venv virtual`
 2. create a .gitignore file and hide the virtual environment.
-3. activate the environment
+3. Activate the environment
+
+For linux Users
 `source virtual/bin/activate`
+
+Windows users
+`.\virtual\Scripts\activate`
+
+**Remember my environment is called _Virtual_**
+
 4. Install Django
 ` python -m pip install django`
 5. Create a project inside the virtual environment
